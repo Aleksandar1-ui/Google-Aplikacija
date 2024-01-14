@@ -7,7 +7,7 @@ export default function Zaglavie() {
     <View style={{display:'flex',flexDirection:'row', justifyContent:'space-evenly',gap:10,alignItems:'center'}}>
       <Image source ={require('./../../../assets/logo.png')} style={stilovi.logo} />
       <View>
-        <TextInput placeholder='Prebaruvanje' style={stilovi.prebaraj}/>
+        <TextInput placeholder='Пребарај' style={stilovi.prebaraj}/>
       </View>
       <Image source={require('./../../../assets/mesto.jpg')} style={stilovi.slikaKorisnik}/>
     </View>

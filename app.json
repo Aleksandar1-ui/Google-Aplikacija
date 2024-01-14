@@ -20,11 +20,22 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "googleServicesFile":"./google-services.json",
+        "package":"applikacija-lokacii",
+        "googleMapsApiKey":"AIzaSyD_v0O_J-FQ-8sEXCKQts02w8YGRZGYfL0"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins":[
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission":"Дозволи да се користи твојата локација."
+        }
+      ]
+    ]
   }
 }
